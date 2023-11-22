@@ -23,6 +23,34 @@ export const Logo: React.FC<IconSvgProps> = ({
   </svg>
 );
 
+export const LogoINUI: React.FC<IconSvgProps> = ({
+  size = 40,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={size || height}
+    viewBox="0 0 63 40"
+    fill="none"
+    {...props}
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M26.5312 31.6666C20.0381 29.1425 14.1753 25.387 9.25811 20.708C8.6277 18.6763 8.3125 16.5831 8.3125 14.3667C8.3125 12.2735 8.62771 10.2418 9.19508 8.33331L26.5312 31.6666Z"
+      fill="#00FFFF"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M36.4688 31.6666C42.9619 29.1425 48.8247 25.387 53.7419 20.708C54.3723 18.6763 54.6875 16.5831 54.6875 14.3667C54.6875 12.2735 54.3723 10.2418 53.8049 8.33331L36.4688 31.6666Z"
+      fill="#00FFFF"
+    ></path>
+  </svg>
+);
+
 export const DiscordIcon: React.FC<IconSvgProps> = ({
   size = 24,
   width,
